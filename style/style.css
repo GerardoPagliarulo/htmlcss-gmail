@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url('../image/bg.jpg');
+  background-size: cover;
+}
+
+/* MARGINI PAGINA */
+#pagina {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* TESTATA */
+.testata {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 15px;
+}
+
+#icona-gmail {
+  width: 70px;
+  height: 70px;
+}
+
+#titolo {
+  display: inline;
+  font-weight: 400;
+  position: relative;
+  bottom: 25px;
+  color: #fff;
+}
+
+/* PRIMA SEZIONE */
+.avvertenze {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 15px;
+}
+
+.email-non-lette {
+  color: white;
+}
+
+.n-email-non-lette {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* SECONDA SEZIONE */
+.email-ricevute {
+  padding: 5px;
+  background-color: #bbb;
+  border: 1px solid #000;
+}
+
+.introduzione-email::before {
+  content: '-';
+}
+
+.introduzione-email::after {
+  content: '...';
+}
+
+/* FOOTER */
+.fondo-pagina {
+  border-top: 2px solid #fff;
+  margin-top: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.testo-footer {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.testo-footer-due {
+  font-style: italic;
+}
